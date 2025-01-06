@@ -266,8 +266,8 @@ YdEIqUuyyOP7uWrat2DX9GgdT0Kj3jlN9K5W7edjcrsZCwenyO4KbXCeAvzhzffi
 ssbzSibBsu/6iGtCOGEoXJf//////////wIBAg==
 -----END DH PARAMETERS-----' > /etc/openvpn/server/dh.pem
 	# Generate server.conf
-	echo "local $ip
-port $port
+	echo 
+"port $port
 proto $protocol
 dev tun
 ca ca.crt
